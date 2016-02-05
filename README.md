@@ -34,3 +34,8 @@ let templates = requireContext(templatesContext, /\.\/(\w+)\.jade/, '$1');
 console.log(templates);
 // -> {template: function() {}, template2: function() {}, ...}
 ```
+
+#### Installation
+```javascript
+npm i --save-dev webpack-require_context
+```
