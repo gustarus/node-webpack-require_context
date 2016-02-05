@@ -21,6 +21,8 @@ var files = requireContext(filesContext, replaceFrom, replaceWith);
 Import all files from ```./templates``` folder:
 ```javascript
 var templates = requireContext(require.context('./templates'));
+
+console.log(templates);
 // -> {./module.js: function() {}, ./template.jade: function() {}, ...}
 ```
 
